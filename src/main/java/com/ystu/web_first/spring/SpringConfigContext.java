@@ -6,9 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jerde on 08.04.2017.
- */
 @Configuration
 public class SpringConfigContext {
 

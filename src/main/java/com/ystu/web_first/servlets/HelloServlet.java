@@ -14,9 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by jerde on 07.04.2017.
- */
+
 public class HelloServlet extends HttpServlet {
 
     ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfigContext.class);

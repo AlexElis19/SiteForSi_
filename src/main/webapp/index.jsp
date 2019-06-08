@@ -1,9 +1,6 @@
 <%@ page import="java.util.List" %>
-<%@ page import="java.util.Date" %>
 <%@ page import="com.ystu.web_first.Model.*" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="com.ystu.web_first.Main" %>
-<%@ page import="com.ystu.web_first.servlets.HelloServlet" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page pageEncoding="UTF-8" %>
 <html>
@@ -79,7 +76,7 @@
             <tr>
                 <th>Наименование</th>
                 <th>Цена</th>
-                <th>Купить</th>
+                <th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Купить</th>
             </tr>
             <c:forEach items="${list}" var="item">
                 <% ++ig; %>
@@ -90,9 +87,10 @@
                     <td align="center">
                         ${item.price}
                     </td>
-                    <td align="center"><br>
+                    <td align="center" >
                         <form id=<%=ig%>  name="BuyPrdButton" method="post" action="/hello">
-                            <input  id="btn" type="submit" value=<%=ig%> name="button";/>
+                            <input style="background-image: url(resurces/icon.png); background-size: contain; position: absolute "  id="btn" type="submit" value=<%=ig%> name="button";/>
+
                         </form>
                     </td>
                 </tr>

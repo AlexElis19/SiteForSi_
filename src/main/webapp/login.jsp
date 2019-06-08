@@ -1,9 +1,3 @@
-<%@ page import="java.util.List" %>
-<%@ page import="java.util.Date" %>
-<%@ page import="com.ystu.web_first.Model.*" %>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="com.ystu.web_first.Main" %>
-<%@ page import="com.ystu.web_first.servlets.HelloServlet" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page pageEncoding="UTF-8" %>
 <html>
