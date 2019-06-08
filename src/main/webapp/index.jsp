@@ -91,8 +91,8 @@
                         ${item.price}
                     </td>
                     <td align="center"><br>
-                        <form id=<%=ig%> name="BuyPrdButton" method="post" action="/hello">
-                            <input id="btn" type="submit" value="Купить" name="button";/>
+                        <form id=<%=ig%>  name="BuyPrdButton" method="post" action="/hello">
+                            <input  id="btn" type="submit" value=<%=ig%> name="button";/>
                         </form>
                     </td>
                 </tr>
